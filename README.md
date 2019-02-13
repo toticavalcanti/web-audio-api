@@ -2,6 +2,6 @@
 
 Esse é um repositório para o estudo da Web Audio API, onde temos alguns exemplos de uso.
 
-#Dependências
+# Dependências
 
 CSS less.min.js e jquery
