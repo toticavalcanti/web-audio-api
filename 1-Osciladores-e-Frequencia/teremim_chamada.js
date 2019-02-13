@@ -69,4 +69,3 @@ var teremin = function() {
 
 };
 
-teremin();
