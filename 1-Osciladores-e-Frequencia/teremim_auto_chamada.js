@@ -2,7 +2,6 @@ $( function() {
 
   // Instancia um contexto de Audio
   var context = new AudioContext();
-  window.context = context;
 
   // variável que vai representar o oscilador
   var oscillator;
@@ -12,7 +11,7 @@ $( function() {
   // Com javascript puro a chamada seria document.getElementById("liga").innerHTML;
   var noteOn  = $('#liga');
   var noteOff = $('#desliga');
-  // get the x and y span elements so we can display values in them
+  // obtém os elementos x e y span para que possamos exibir valores neles
   var x       = $('#x');
   var y       = $('#y');
 
