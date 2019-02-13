@@ -7,8 +7,10 @@ Soa parecido com um teremim.
 
 ## Uma usando chamada normal a função
 index_com_chamada.html
+<br>
 teremim_chamada.js
 
 ## Outra usando self-invoking functions
 index_auto_chamada.html
+<br>
 teremim_auto_chamada.js
