@@ -11,7 +11,7 @@ $( function() {
   // Com javascript puro a chamada seria document.getElementById("liga").innerHTML;
   var noteOn  = $('#liga');
   var noteOff = $('#desliga');
-  // obtém os elementos x e y span para que possamos exibir valores neles
+  // obtém os elementos span x e y para que possamos exibir valores deles
   var x       = $('#x');
   var y       = $('#y');
 
