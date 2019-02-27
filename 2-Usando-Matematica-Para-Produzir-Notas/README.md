@@ -1,6 +1,5 @@
-# 2 - Usando a matemática para fazer anotações
-
-Neste esboço, fazemos algumas contas com as coordenadas X e Y do mouse para criar uma grade de notas. <br>
+# 2 - Usando a matemática para definir notas
+Neste experimento, fazemos algumas contas com as coordenadas X e Y do mouse para criar uma grade de notas. <br>
 Alguns HTML e CSS fornecem uma representação visual do que está acontecendo.
 
 Este código introduz a função `mtof`, que nos permite trabalhar com a notação MIDI (notas no intervalo de 0 - 127) e convertê-la em frequência. <br>
