@@ -63,22 +63,22 @@ ul li {
 .box:nth-child(2n) {
   background-color: #f4f4f4;
 }
-.overlay {
+.horizontal_band {
   position: absolute;
   left: 0;
   right: 0;
 }
-.overlay--1 {
+.horizontal_band--1 {
   top: 25%;
   bottom: 50%;
   background-color: rgba(255, 0, 0, 0.2);
 }
-.overlay--2 {
+.horizontal_band--2 {
   top: 50%;
   bottom: 25%;
   background-color: rgba(255, 0, 0, 0.4);
 }
-.overlay--3 {
+.horizontal_band--3 {
   top: 75%;
   bottom: 0;
   background-color: rgba(255, 0, 0, 0.6);
@@ -148,22 +148,22 @@ ul li {
 .box:nth-child(2n) {
   background-color: #f4f4f4;
 }
-.overlay {
+.horizontal_band {
   position: absolute;
   left: 0;
   right: 0;
 }
-.overlay--1 {
+.horizontal_band--1 {
   top: 25%;
   bottom: 50%;
   background-color: rgba(0, 153, 255, 0.2);
 }
-.overlay--2 {
+.horizontal_band--2 {
   top: 50%;
   bottom: 25%;
   background-color: rgba(0, 153, 255, 0.4);
 }
-.overlay--3 {
+.horizontal_band--3 {
   top: 75%;
   bottom: 0;
   background-color: rgba(0, 92, 153, 0.6);
