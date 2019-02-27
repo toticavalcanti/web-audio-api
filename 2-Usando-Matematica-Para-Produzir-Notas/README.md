@@ -6,6 +6,5 @@ Este código introduz a função `mtof`, que nos permite trabalhar com a notação MI
 
 <br>
 Você pode ler mais sobre a notação MIDI e a fórmula para conversão aqui: [_Nomes de notas, números MIDI e freqüências_] 
-
 <br>
 :stuck_out_tongue_winking_eye: http://newt.phys.unsw.edu.au/jw/notes.html).
