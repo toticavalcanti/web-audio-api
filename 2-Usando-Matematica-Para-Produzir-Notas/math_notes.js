@@ -6,13 +6,13 @@ $( function() {
   // variável que vai representar o oscilador
   var osc;
 
-  // números que precisaremos depois
+  // pega a largura e a altura
   var width   = $(window).width();
   var height  = $(window).height();
   var x = 0;
   var y = 0;
 
-  // recalcule a largura e a altura se o tamanho da janela mudar
+  // recalcula a largura e a altura se o tamanho da janela mudar
   $(window).resize( function() {
     width   = $(this).width();
     height  = $(this).height();
