@@ -7,7 +7,7 @@ width   = $(this).width();
 height  = $(this).height();
 
 function calc_x_pos(x){
-	var x_position = 45 + Math.floor( x/ width * 13 );
+	var x_position = 45 + Math.floor( x / width * 13 );
 	return x_position
 }
 
@@ -40,8 +40,10 @@ oscillator.connect(gain);
 //Conecta o gain node ao destination
 gain.connect(context.destination);
 
+oscillator.type = 'sawtooth';
+
 //Define a frequência
-oscillator.frequency.value = 110;
+oscillator.frequency.value = 880;
 
 oscillator.start(0);
 
