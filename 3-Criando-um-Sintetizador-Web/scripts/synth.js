@@ -17,23 +17,23 @@ keyboard.keyDown = function (note, frequency) {
     var osc = context.createOscillator(),
         osc2 = context.createOscillator();
 
-    osc.frequency.value = frequency;
-    osc.type = 'sawtooth';
-    osc.detune.value = -10;
+        osc.frequency.value = frequency;
+        osc.type = 'sawtooth';
+        osc.detune.value = -10;
 
-    osc2.frequency.value = frequency;
-    osc2.type = 'triangle';
-    osc2.detune.value = 10;
+        osc2.frequency.value = frequency;
+        osc2.type = 'triangle';
+        osc2.detune.value = 10;
 
-    osc.connect(masterVolume);
-    osc2.connect(masterVolume);
+        osc.connect(masterVolume);
+        osc2.connect(masterVolume);
 
-    masterVolume.connect(context.destination);
+        masterVolume.connect(context.destination);
 
-    oscillators[frequency] = [osc, osc2];
+        oscillators[frequency] = [osc, osc2];
 
-    osc.start(context.currentTime);
-    osc2.start(context.currentTime);
+        osc.start(context.currentTime);
+        osc2.start(context.currentTime);
 };
 
 keyboard.keyUp = function (note, frequency) {
