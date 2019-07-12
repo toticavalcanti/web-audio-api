@@ -1,14 +1,15 @@
+// Cria uma instância do QwertyHancock
 var keyboard = new QwertyHancock({
      id: 'keyboard',
      width: 800,
      height: 150,
      octaves: 4
 });
-
+// Cria o contexto de audio
 var context = new AudioContext(),
     masterVolume = context.createGain(),
     oscillators = {};
-
+    
 masterVolume.gain.value = 0.2;
 
 masterVolume.connect(context.destination);
