@@ -1,2 +1,2 @@
-# Sintetizador utilizando Web Audio API e Javascript
+# Construindo um Sintetizador Web utilizando Web Audio API e Javascript
 
