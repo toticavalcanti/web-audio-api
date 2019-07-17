@@ -35,6 +35,8 @@ keyboard.keyDown = function (note, frequency) {
 
         osc.start(context.currentTime);
         osc2.start(context.currentTime);
+
+
 };
 
 keyboard.keyUp = function (note, frequency) {
